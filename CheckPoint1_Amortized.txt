@@ -1,0 +1,19 @@
+What is the Time Complexity of the following code?
+
+int j = 0;
+        for(i = 0; i < n; ++i) {
+            while(j < n && arr[i] < arr[j]) {
+                j++;
+            }
+        }
+
+
+      1)  O(n^2)
+      2)  O(nlogn)
+      3)  O(n(logn)^2)
+      4)  O(n)
+      5)  O(n * sqrt(n))
+      6)  O(n^2 logn)
+      7)  Can't say. Depends on the value of arr.
+
+      Solution: O(n).
