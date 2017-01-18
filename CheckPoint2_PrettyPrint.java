@@ -34,7 +34,7 @@ See Expected Output
 
 **/
 import java.util.ArrayList;
-import java.util.Arrays.ArrayList;
+//import java.util.Arrays.ArrayList;
 
 public class CheckPoint2_PrettyPrint{
   public static void main(String[] args){
@@ -42,8 +42,23 @@ public class CheckPoint2_PrettyPrint{
   }
 
   public static void prettyPrint(int a){
-    int n = 4;
-    int m = 5;
+      ArrayList<ArrayList<Integer>> array = new ArrayList<>();
+
+      int x = (2*a)-1;
+      int[][] prettyArray = {{3,3,3,3,3},
+                             {3,2,2,2,3},
+                             {3,2,1,2,3},
+                             {3,2,2,2,3},
+                             {3,3,3,3,3}}; //new int[x][x];
+
+      for(int i=0; i<x; i++) {
+        for(int j =0; j<x; j++) {
+            System.out.println(prettyArray[i][j]);
+        }
+      }
+
+
+
     // int [][] arr = {{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20}};
 
 
@@ -67,4 +82,4 @@ public class CheckPoint2_PrettyPrint{
 
   }
  }
-}
+
