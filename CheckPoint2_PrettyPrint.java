@@ -34,52 +34,70 @@ See Expected Output
 
 **/
 import java.util.ArrayList;
-//import java.util.Arrays.ArrayList;
 
 public class CheckPoint2_PrettyPrint{
   public static void main(String[] args){
-    prettyPrint(4);
+    System.out.print(prettyPrint(2));
   }
 
-  public static void prettyPrint(int a){
-      ArrayList<ArrayList<Integer>> array = new ArrayList<>();
+  public static ArrayList<ArrayList<Integer>> prettyPrint(int a){
+      ArrayList<ArrayList<Integer>> arrayList = new ArrayList<>();
 
+      int input = a;
       int x = (2*a)-1;
-      int[][] prettyArray = {{3,3,3,3,3},
-                             {3,2,2,2,3},
-                             {3,2,1,2,3},
-                             {3,2,2,2,3},
-                             {3,3,3,3,3}}; //new int[x][x];
+      int[][] array = new int[x][x];
 
-      for(int i=0; i<x; i++) {
-        for(int j =0; j<x; j++) {
-            System.out.println(prettyArray[i][j]);
-        }
+      int rowCount = 0;
+      int columnCount = x-1;
+      int j;
+
+
+
+      while(a>0){
+
+          for(int i= 0; i<x; i++) {
+              if(a==1){
+                  array[input-1][input-1]=1;
+              }else {
+
+                  array[rowCount][i] = a;
+
+
+                  array[columnCount][i] = a;
+              }
+          }
+
+
+
+          for(j=0; j<x; j++){
+              if(a==1){
+                  array[input-1][input-1]=1;
+              }else{
+                  array[j][columnCount] = a;
+                  array[j][rowCount] = a;
+              }
+
+          }
+
+          rowCount++;
+          columnCount--;
+          j++;
+
+          a--;
+
       }
 
+      for(int k =0; k<x; k++){
+          ArrayList<Integer> list = new ArrayList<>();
+          for(int n =0; n<x; n++){
+              list.add(array[k][n]);
+          }
+          arrayList.add(list);
+      }
 
-
-    // int [][] arr = {{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20}};
-
-
-
-                          // {{1,2,3,4,5},
-                          //  {6,9,8,7,12},
-                          //  {13,14,15,16,17},
-                          //  {18,19,20,21,22}};
-  // for (ArrayList<Integer> list : arrayList) {
-  //   for (Integer i : list) {
-  //       System.out.print(i+" ");
-  //   }
-  //   System.out.println();
-
-    // for(int i =0; i<(n-1); i++){
-    //   for (int j =0; j<(m-1); j++){
-    //       System.out.println(array[i][j]);
-    //
-    //   }
-    // }
+      return arrayList;
 
   }
  }
+
 
