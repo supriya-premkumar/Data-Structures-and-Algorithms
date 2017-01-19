@@ -41,62 +41,44 @@ public class CheckPoint2_PrettyPrint{
   }
 
   public static ArrayList<ArrayList<Integer>> prettyPrint(int a){
-      ArrayList<ArrayList<Integer>> arrayList = new ArrayList<>();
+      ArrayList<ArrayList<Integer>> pp = new ArrayList<ArrayList<Integer>>();
 
-      int input = a;
-      int x = (2*a)-1;
-      int[][] array = new int[x][x];
+      int n = 2 * A - 1;
 
-      int rowCount = 0;
-      int columnCount = x-1;
-      int j;
+      int[][] p = new int[n][n];
 
+      int T = 0;
+      int B = n - 1;
+      int L = 0;
+      int R = n - 1;
 
-
-      while(a>0){
-
-          for(int i= 0; i<x; i++) {
-              if(a==1){
-                  array[input-1][input-1]=1;
-              }else {
-
-                  array[rowCount][i] = a;
-
-
-                  array[columnCount][i] = a;
-              }
+      while (A > 0) {
+          for (int i = L; i <= R; i++) {
+              p[T][i] = A;
+              p[B][i] = A;
           }
 
-
-
-          for(j=0; j<x; j++){
-              if(a==1){
-                  array[input-1][input-1]=1;
-              }else{
-                  array[j][columnCount] = a;
-                  array[j][rowCount] = a;
-              }
-
+          for (int i = T; i <= B; i++) {
+              p[i][R] = A;
+              p[i][L] = A;
           }
 
-          rowCount++;
-          columnCount--;
-          j++;
+          T++;
+          L++;
+          B--;
+          R--;
 
-          a--;
-
+          A--;
       }
 
-      for(int k =0; k<x; k++){
-          ArrayList<Integer> list = new ArrayList<>();
-          for(int n =0; n<x; n++){
-              list.add(array[k][n]);
+      for (int i = 0; i < n; i++) {
+          ArrayList<Integer> row = new ArrayList<Integer>();
+          for (int j = 0; j < n; j++) {
+              row.add(p[i][j]);
           }
-          arrayList.add(list);
+          pp.add(row);
       }
-
-      return arrayList;
-
+      return pp;
   }
  }
 
