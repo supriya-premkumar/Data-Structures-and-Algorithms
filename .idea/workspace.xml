@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6669830b-48e3-4ebf-841b-312683a8a45d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CheckPoint2_PrettyPrint.class" afterPath="$PROJECT_DIR$/CheckPoint2_PrettyPrint.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Checkpoint4_Subtract.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CheckPoint2_PrettyPrint.java" afterPath="$PROJECT_DIR$/CheckPoint2_PrettyPrint.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CheckPoint2_PrettyPrint.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CheckPoint2_PrettyPrint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CheckPoint2_PrettyPrint.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-636">
@@ -40,9 +39,21 @@
       <file leaf-file-name="Checkpoint3_kthSmallestElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Checkpoint3_kthSmallestElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Checkpoint4_Subtract.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Checkpoint4_Subtract.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-396">
+              <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#2833#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,6 +73,7 @@
       <list>
         <option value="$PROJECT_DIR$/Checkpoint3_kthSmallestElement.java" />
         <option value="$PROJECT_DIR$/CheckPoint2_PrettyPrint.java" />
+        <option value="$PROJECT_DIR$/Checkpoint4_Subtract.java" />
       </list>
     </option>
   </component>
@@ -542,14 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Checkpoint3_kthSmallestElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint2_PrettyPrint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-636">
@@ -558,6 +562,24 @@
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#668#669#0" expanded="true" />
             <element signature="e#710#711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Checkpoint3_kthSmallestElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Checkpoint4_Subtract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#2833#0" expanded="true" />
           </folding>
         </state>
       </provider>
