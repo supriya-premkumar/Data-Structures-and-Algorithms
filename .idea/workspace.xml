@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6669830b-48e3-4ebf-841b-312683a8a45d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Checkpoint3_Numrange.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Checkpoint5_LongestConsecutiveSequence.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,47 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CheckPoint2_PrettyPrint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CheckPoint2_PrettyPrint.java">
+      <file leaf-file-name="Checkpoint5_LongestConsecutiveSequence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Checkpoint5_LongestConsecutiveSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-636">
-              <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#710#711#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Checkpoint3_kthSmallestElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Checkpoint3_kthSmallestElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="99">
+              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Checkpoint4_Subtract.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Checkpoint4_Subtract.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#2004#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Checkpoint3_Numrange.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Checkpoint3_Numrange.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Checkpoint3_Numrange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="53" column="21" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="53" selection-end-column="21" />
+            <state relative-caret-position="705">
+              <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -87,6 +61,7 @@
         <option value="$PROJECT_DIR$/CheckPoint2_PrettyPrint.java" />
         <option value="$PROJECT_DIR$/Checkpoint4_Subtract.java" />
         <option value="$PROJECT_DIR$/Checkpoint3_Numrange.java" />
+        <option value="$PROJECT_DIR$/Checkpoint5_LongestConsecutiveSequence.java" />
       </list>
     </option>
   </component>
@@ -599,11 +574,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Checkpoint3_Numrange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="53" column="21" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="705">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Checkpoint5_LongestConsecutiveSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
