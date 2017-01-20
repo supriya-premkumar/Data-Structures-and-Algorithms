@@ -21,31 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FindDuplicate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Arrays/FindDuplicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaxSumContiguousSubArray.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Arrays/MaxSumContiguousSubArray.java">
+      <file leaf-file-name="ImplementStrStr.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Strings/ImplementStrStr.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Checkpoint5_LongestConsecutiveSequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Checkpoint5_LongestConsecutiveSequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -75,6 +55,7 @@
         <option value="$PROJECT_DIR$/Checkpoint5_LongestConsecutiveSequence.java" />
         <option value="$PROJECT_DIR$/CheckPoint2_PrettyPrint.java" />
         <option value="$PROJECT_DIR$/Arrays/FindDuplicate.java" />
+        <option value="$PROJECT_DIR$/Arrays/MaxSumContiguousSubArray.java" />
       </list>
     </option>
   </component>
@@ -609,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Strings/ImplementStrStr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint2_PrettyPrint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-351">
@@ -638,14 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Arrays/FindDuplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Checkpoint5_LongestConsecutiveSequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -655,6 +621,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Arrays/MaxSumContiguousSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/FindDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/ImplementStrStr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
