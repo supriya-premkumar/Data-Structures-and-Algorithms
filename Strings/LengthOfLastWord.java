@@ -35,11 +35,37 @@
 //        }
 
 
-public int lengthOfLastWord(final String a) {
-        if (a == null || a.length() == 0 || a.trim().isEmpty()) {
+//public int lengthOfLastWord(final String a) {
+//        if (a == null || a.length() == 0 || a.trim().isEmpty()) {
+//        return 0;
+//        }
+//
+//        String[] arr = a.split(" ");
+//        return arr[arr.length - 1].length();
+//        }
+
+public static int lengthOfLastWord(String s) {
+        if (s == null || s.length() == 0) {
         return 0;
         }
 
-        String[] arr = a.split(" ");
-        return arr[arr.length - 1].length();
+        char[] str = s.toCharArray();
+
+        int count = 0;
+        for (int i = str.length - 1; i >= 0; i--) {
+
+        if ((str[i] >= 'a' && str[i] <='z') || (str[i] >= 'A' && str[i] <= 'Z')) {
+        count++;
+        }
+
+        if (str[i] == ' ') {
+        if (count == 0) {
+        continue;
+        } else {
+        return count;
+        }
+        }
+        }
+
+        return count;
         }
